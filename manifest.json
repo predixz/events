@@ -1,0 +1,16 @@
+{
+  "name": "Trigger Events",
+  "version": "1.0",
+  "description": "Automated Event Triger",
+  "permissions": ["nativeMessaging"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Test"
+  },
+  "icons": {
+    
+  },
+  "manifest_version": 2
+}
