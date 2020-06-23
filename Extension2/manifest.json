@@ -1,0 +1,9 @@
+{
+  "name": "com.test.events",
+  "description": "Extension!",
+  "path": "Javaversion.bat",
+  "type": "stdio",
+  "allowed_origins": [
+  "chrome-extension://hkjnkjicmpapfcacaikgjmbdhdplofbk/"
+  ]
+}
