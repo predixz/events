@@ -1,16 +1,9 @@
 {
-  "name": "Trigger Events",
-  "version": "1.0",
-  "description": "Automated Event Triger",
-  "permissions": ["nativeMessaging"],
-  "background": {
-    "scripts": ["background.js"]
-  },
-  "browser_action": {
-    "default_title": "Test"
-  },
-  "icons": {
-    
-  },
-  "manifest_version": 2
+  "name": "com.test.events",
+  "description": "Extension!",
+  "path": "Javaversion.bat",
+  "type": "stdio",
+  "allowed_origins": [
+  "chrome-extension://hkjnkjicmpapfcacaikgjmbdhdplofbk/"
+  ]
 }
